@@ -5,7 +5,7 @@ package consul
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 
 	consulapi "github.com/hashicorp/consul/api"
